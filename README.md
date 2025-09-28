@@ -66,15 +66,6 @@ Esta Pokédex web es una aplicación de página única (SPA) que consume datos d
    - Opción 1: Abrir `index.html` directamente en el navegador
    - Opción 2: Usar un servidor local (recomendado)
    \`\`\`bash
-   # Con Python 3
-   python -m http.server 8000
-   
-   # Con Node.js (si tienes http-server instalado)
-   npx http-server
-   
-   # Con PHP
-   php -S localhost:8000
-   \`\`\`
 
 3. **Acceder a la aplicación**
    - Navegador directo: `file:///ruta/al/proyecto/index.html`
