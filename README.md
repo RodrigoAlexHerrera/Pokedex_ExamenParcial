@@ -138,3 +138,7 @@ Carga y muestra los Pokémon favoritos desde localStorage.
 - Mensajes informativos para Pokémon no encontrados
 - Fallbacks para imágenes no disponibles
 - Manejo de errores de conectividad
+
+## Video
+
+[![Pokédex Demo](https://img.youtube.com/vi/QuDafbXRlI0/0.jpg)](https://youtu.be/QuDafbXRlI0)
