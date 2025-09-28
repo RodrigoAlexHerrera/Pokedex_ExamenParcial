@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex Web</title>
+    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/5/51/Pokebola-pokeball-png-0.png" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="pokedex">
+        <header class="pokedex__header">
+            <h1 class="pokedex__title">Pokédex</h1>
+            <p class="pokedex__subtitle">By Rodrigo Herrera, Carne 202102603</p>
+        </header>
+        
+        <main class="pokedex__main">
+            <div class="search-section">
+                <div class="search">
+                    <input 
+                        type="text" 
+                        class="search__input" 
+                        placeholder="Buscar Pokémon por nombre o ID..."
+                        id="searchInput"
+                    >
+                    <button class="search__button" id="searchButton">
+                        Buscar
+                    </button>
+                </div>
+                
+                <div class="controls">
+                    <button class="controls__button controls__button--primary" id="loadInitialButton">
+                        Cargar primeros 20
+                    </button>
+                    <button class="controls__button controls__button--secondary" id="showFavoritesButton">
+                        Mis Favoritos
+                    </button>
+                </div>
+            </div>
+            
+            <div class="content">
+                <div class="loading" id="loading">
+                    <div class="loading__spinner"></div>
+                    <div class="loading__text">Cargando Pokémon...</div>
+                </div>
+                
+                <div class="pokemon-grid" id="pokemonGrid"></div>
+                
+                <div class="pokemon-detail" id="pokemonDetail"></div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
